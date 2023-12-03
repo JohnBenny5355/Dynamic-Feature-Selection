@@ -4,22 +4,19 @@ This folder contains the programatic implementation of CMI-EVSI method which aut
 
 ## Table Of Contents
 
+## Dataset folder
+This folder contains a test dataset used for determining the performance matrix of the model. Additionally, a link to the google drive containing the datasets are provided since the files are too large to be uploaded in Github.
 
-## Getting Started
-### Prerequisites
-To run the code, it is recommended to create a virtual environment and install the required packages. 
+## CMI-EVSI.ipynb
+This .'ipynb' file describes the basic structure and runs only two epochs. 
+Performance of the model is not determined from these results. Onlz the framework can be analysed.
 
-### Execution of CMI-EVSI
-To start CMI-EVSI, use the jupyter notebook from the folder with corresponding description of requirements.
+## CMI_EVSI_Best.ipynb
+This file shows the results when CMI and EVSI are directly combined without making any changes. This model is not practical and needs to be advanced further.
+This file is preserved to refer to the changes that is made to the final framework and to show that the two models are not directly combined but edited to bring best results.
 
-### Steps to use CMI-EVSI
+## CMI_EVSI_BestResult.ipynb
+Best results from CMI-EVSI method. Refer here for performance matrix.
 
-The following steps are to be followed to use CMI-EVSI:
-1. Place the dataset in the `data` folder.
-2. Make it available for access from the main file.
-3. Also include the packages corresponding to dynamic selection.
-
-The program will run CMI-EVSI and will provide the optimal set of Access Points that can be used to detect anomalies in the system and also calculate the cost incurred in selecting the access points.
-
-More technical details about the structure of the code can be found in the [docs](docs) folder.
-
+## CMI_EVSI_US06.ipynb
+ Performance with a completely new drive cycle.
