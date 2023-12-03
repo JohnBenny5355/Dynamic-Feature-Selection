@@ -17,14 +17,15 @@ To install the required packages, run the following code in terminal:
 pip install -r requirements.txt
 ```
 ### Execution of CMI-EVSI
-To start CMI-EVSI, use the jupyter notebook from the folder with corresponding description of requirements.
+To start CMI-EVSI, use the jupyter notebook from the folder with corresponding description of requirements. (Refer CMI-EVSI folder)
 
 ### Steps to use CMI-EVSI
+The validation of the model was done in Google Colab and the steps descibed below corresponds to this environment in association with Google Drive for storage.
 
 The following steps are to be followed to use CMI-EVSI:
 1. Place the dataset in the `data` folder.
-2. Make it available for access from the main file.
-3. Also include the packages corresponding to dynamic selection.
+2. Make it available for access from the main '.ipynb' file.
+3. Also include the packages corresponding to dynamic selection mentioned in the requirements.txt file.
 
 The program will run CMI-EVSI and will provide the optimal set of Access Points that can be used to detect anomalies in the system and also calculate the cost incurred in selecting the access points.
 
