@@ -11,7 +11,7 @@ This repository contains the programatic implementation of Access Point Search A
 ## Getting Started
 ### Prerequisites
 To run the code, it is recommended to create a virtual environment and install the required packages. 
-To install the required packages, run the following code:
+To install the required packages, run the following code in terminal:
 
 ```bash
 pip install -r requirements.txt
