@@ -13,8 +13,8 @@ This repository contains the programatic implementation of Access Point Search A
 To run the code, it is recommended to create a virtual environment and install the required packages. 
 To install the required packages, run the following code:
 
-```bash
-pip install -r requirements.txt
+```pip install -r requirements.txt
+
 
 ### Execution of CMI-EVSI
 To start CMI-EVSI, use the jupyter notebook from the folder with corresponding description of requirements.
