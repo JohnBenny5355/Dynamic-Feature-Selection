@@ -15,7 +15,7 @@ To install the required packages, run the following code:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### Execution of CMI-EVSI
 To start CMI-EVSI, use the jupyter notebook from the folder with corresponding description of requirements.
 
