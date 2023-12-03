@@ -20,7 +20,8 @@ pip install -r requirements.txt
 To start CMI-EVSI, use the jupyter notebook from the folder with corresponding description of requirements. (Refer CMI-EVSI folder)
 
 ### Steps to use CMI-EVSI
-The validation of the model was done in Google Colab and the steps descibed below corresponds to this environment in association with Google Drive for storage.
+
+### The validation of the model was done in Google Colab and the steps descibed below corresponds to this environment in association with Google Drive for storage.
 
 The following steps are to be followed to use CMI-EVSI:
 1. Place the dataset in the `data` folder.
